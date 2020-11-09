@@ -126,5 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Z_PublishEnvorinments\sqlautomation_Dev.publish.publish.xml" />
+    <None Include="Z_PublishEnvorinments\sqlautomation_QA.publish.publish.publish.xml" />
   </ItemGroup>
 </Project>
