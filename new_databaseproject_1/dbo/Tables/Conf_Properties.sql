@@ -7,6 +7,7 @@
     [ValidTo]       DATETIME       NULL,
     [DataDomain]    VARCHAR (128)  NULL,
     [CheckedInGitStatus] NCHAR(10) NULL, 
+    [CheckedInGitStatus_Test] NCHAR(10) NULL, 
     CONSTRAINT [PK_Properties] PRIMARY KEY CLUSTERED ([PropertyId] ASC, [PropertyName] ASC)
 );
 
