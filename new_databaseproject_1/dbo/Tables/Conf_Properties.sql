@@ -6,7 +6,7 @@
     [ValidFrom]     DATETIME       CONSTRAINT [DF_Properties_ValidFrom] DEFAULT (getdate()) NOT NULL,
     [ValidTo]       DATETIME       NULL,
     [DataDomain]    VARCHAR (128)  NULL,
-    [CheckedInGitStatus] NCHAR(10) NOT NULL, 
+    [CheckedInGitStatus] NCHAR(10) NULL, 
     CONSTRAINT [PK_Properties] PRIMARY KEY CLUSTERED ([PropertyId] ASC, [PropertyName] ASC)
 );
 
